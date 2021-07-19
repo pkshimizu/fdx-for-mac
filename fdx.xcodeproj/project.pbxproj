@@ -73,6 +73,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21644D7526A501DB005DD253 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				21DB43A926A43CDA00392943 /* fdxApp.swift */,
+				21644D7826A50221005DD253 /* Views */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		21644D7626A501FE005DD253 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				21644D7C26A502FF005DD253 /* Dtos */,
+				21644D7926A502A2005DD253 /* UseCases */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		21644D7726A5020A005DD253 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				21644D7B26A502E7005DD253 /* Entities */,
+				21644D7A26A502C8005DD253 /* Repositories */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		21644D7826A50221005DD253 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				21DB43AB26A43CDA00392943 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		21644D7926A502A2005DD253 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		21644D7A26A502C8005DD253 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		21644D7B26A502E7005DD253 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		21644D7C26A502FF005DD253 /* Dtos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Dtos;
+			sourceTree = "<group>";
+		};
 		21DB439D26A43CDA00392943 = {
 			isa = PBXGroup;
 			children = (
@@ -96,8 +159,9 @@
 		21DB43A826A43CDA00392943 /* fdx */ = {
 			isa = PBXGroup;
 			children = (
-				21DB43A926A43CDA00392943 /* fdxApp.swift */,
-				21DB43AB26A43CDA00392943 /* ContentView.swift */,
+				21644D7726A5020A005DD253 /* Data */,
+				21644D7626A501FE005DD253 /* Domain */,
+				21644D7526A501DB005DD253 /* Presentation */,
 				21DB43AD26A43CDA00392943 /* Assets.xcassets */,
 				21DB43B226A43CDA00392943 /* Info.plist */,
 				21DB43B326A43CDA00392943 /* fdx.entitlements */,
